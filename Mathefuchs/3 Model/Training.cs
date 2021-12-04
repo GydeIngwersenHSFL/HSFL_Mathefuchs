@@ -52,7 +52,11 @@ namespace Mathefuchs._3_Model
         private MTask generatePlusTask(int max, bool tenTransition)
         {
             int num1 = rnd.Next(1, max);
-            int num2 = rnd.Next(1, max - num1);
+            int num2;
+            if (tenTransition) { num2 = rnd.Next(1, max - num1); }
+            else {
+                num2 = rnd.Next(1, 10 - num1 % 10);
+            }
 
             return new MTask(num1, num2, Operator.Plus);
         }
@@ -60,7 +64,15 @@ namespace Mathefuchs._3_Model
         private MTask generateMinusTask(int max, bool tenTransition)
         {
             int num1 = rnd.Next(1, max);
-            int num2 = rnd.Next(1, num1);
+            int num2;
+            if (tenTransition) { num2 = rnd.Next(1, num1); }
+            else
+            {
+                int n10 = num1 % 10;
+                if(n10 != 0) { num2 = rnd.Next(1, num1 % 10); }
+                else { num2 = rnd.Next(1, 10); }
+                
+            }
 
             return new MTask(num1, num2, Operator.Minus);
         }
