@@ -63,6 +63,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="1 Views\EndOfTraining.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="1 Views\FirstView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +76,9 @@
     </Compile>
     <Compile Include="1 Views\ChooseNrOfTasks.xaml.cs">
       <DependentUpon>ChooseNrOfTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="1 Views\EndOfTraining.xaml.cs">
+      <DependentUpon>EndOfTraining.xaml</DependentUpon>
     </Compile>
     <Compile Include="1 Views\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>

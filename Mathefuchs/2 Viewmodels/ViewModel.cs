@@ -26,9 +26,7 @@ namespace Mathefuchs._2_Viewmodels
             training = new Training(plus, minus, nrOfTaks, max, tenTransition);
 
             vmdc = new ViewModelDataContext();
-            Console.WriteLine($"training{training}");
             vmdc.training = training;
-            Console.WriteLine(vmdc.training.ToString());
 
             NextTask(window);
 
@@ -38,8 +36,6 @@ namespace Mathefuchs._2_Viewmodels
         public static void NextTask(Window window)
         {
             vmdc.training.tasksSolved++;
-            Console.WriteLine(vmdc.training.tasksSolved);
-
             MTask task = training.tasks[vmdc.training.tasksSolved];
             vmdc.n1 = task.n1;
             vmdc.n2 = task.n2;
@@ -53,14 +49,29 @@ namespace Mathefuchs._2_Viewmodels
             if (guess == vmdc.result.ToString())
             {
                 vmdc.info = "Super!";
-                NextTask(window);
+                if (vmdc.training.tasksSolved < nrOfTaks -1) 
+                {
+                    Console.WriteLine(vmdc.training.tasksSolved);
+                    Console.WriteLine(nrOfTaks);
+                    NextTask(window);
+                    ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(), window);
+                }
+                else
+                {
+                    vmdc.info = $"Du konntest \n" +
+                  $"{vmdc.training.tasksSolvedAtFirstTry} " +
+                  $"von {vmdc.training.tasksSolved}\n" +
+                  $"Aufgaben beim ersten Versuch lösen!";
+
+                    ChangePage(new Mathefuchs._1_Views.EndOfTraining(), window);
+                }
             }
             else
             {
                 vmdc.info = "Fast! Versuche es noch einmal!";
+                ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(), window);
             }
 
-            ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(),window);
         }
 
         internal static void SetDifficulty(int diff, Window window)
