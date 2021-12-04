@@ -1,0 +1,13 @@
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\bin\Debug\netcoreapp3.1\MatheFuchsUnitTest.exe
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\bin\Debug\netcoreapp3.1\MatheFuchsUnitTest.deps.json
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\bin\Debug\netcoreapp3.1\MatheFuchsUnitTest.runtimeconfig.json
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\bin\Debug\netcoreapp3.1\MatheFuchsUnitTest.runtimeconfig.dev.json
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\bin\Debug\netcoreapp3.1\MatheFuchsUnitTest.dll
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\bin\Debug\netcoreapp3.1\MatheFuchsUnitTest.pdb
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.csprojAssemblyReference.cache
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.AssemblyInfoInputs.cache
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.AssemblyInfo.cs
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.dll
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.pdb
+C:\Users\thegy\source\repos\MatheFuchsUnitTest\MatheFuchsUnitTest\obj\Debug\netcoreapp3.1\MatheFuchsUnitTest.genruntimeconfig.cache
