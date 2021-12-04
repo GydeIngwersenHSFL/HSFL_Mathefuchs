@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mathefuchs._2_Viewmodels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,11 +24,12 @@ namespace Mathefuchs._1_Views
         public EndOfTraining()
         {
             InitializeComponent();
+            Console.WriteLine(ViewModel.vmdc.info);
         }
 
-        public void Further_Click(object sender, RoutedEventArgs e)
+        public void Next_Click(object sender, RoutedEventArgs e)
         {
-            //ToDO
+            ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
     }
 }

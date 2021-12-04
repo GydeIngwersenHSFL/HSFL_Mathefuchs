@@ -35,8 +35,8 @@ namespace Mathefuchs._2_Viewmodels
 
         public static void NextTask(Window window)
         {
-            vmdc.training.tasksSolved++;
             MTask task = training.tasks[vmdc.training.tasksSolved];
+            vmdc.training.tasksSolved++;
             vmdc.n1 = task.n1;
             vmdc.n2 = task.n2;
             vmdc.op = task.opstr;
@@ -49,20 +49,13 @@ namespace Mathefuchs._2_Viewmodels
             if (guess == vmdc.result.ToString())
             {
                 vmdc.info = "Super!";
-                if (vmdc.training.tasksSolved < nrOfTaks -1) 
+                if (vmdc.training.tasksSolved < nrOfTaks) 
                 {
-                    Console.WriteLine(vmdc.training.tasksSolved);
-                    Console.WriteLine(nrOfTaks);
                     NextTask(window);
                     ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(), window);
                 }
                 else
                 {
-                    vmdc.info = $"Du konntest \n" +
-                  $"{vmdc.training.tasksSolvedAtFirstTry} " +
-                  $"von {vmdc.training.tasksSolved}\n" +
-                  $"Aufgaben beim ersten Versuch lösen!";
-
                     ChangePage(new Mathefuchs._1_Views.EndOfTraining(), window);
                 }
             }

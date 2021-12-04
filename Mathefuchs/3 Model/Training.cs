@@ -17,7 +17,7 @@ namespace Mathefuchs._3_Model
         public bool tenTransition { get; set; }
         public MTask[] tasks { get; set; }
 
-        public static Random rnd = new Random();
+        public static Random rnd;
 
         public Training(bool plus, bool minus, int nrOfTasks, int max, bool tenTransition)
         {
@@ -28,20 +28,22 @@ namespace Mathefuchs._3_Model
             this.tenTransition = tenTransition;
             tasksSolved = 0;
             tasksSolvedAtFirstTry = 0;
+            rnd = new Random();
 
             tasks = new MTask[nrOfTasks];
             MTask t;
-            Console.WriteLine("before loop");
             for (int i = 0; i < nrOfTasks; i++)
             {
-                Console.WriteLine("loop");
                 if (plus && minus)
                 {
-                    if (rnd.Next(1) == 0) { t = generatePlusTask(max, tenTransition); }
+                    int r = rnd.Next(0,2);
+                    Console.WriteLine(r);
+                    if (r == 0) { t = generatePlusTask(max, tenTransition); }
                     else { t = generateMinusTask(max, tenTransition); }
                 }
-                else if (plus) { t = generatePlusTask(max, tenTransition); }
-                else { t = generateMinusTask(max, tenTransition); }
+                else if (plus && !minus) { t = generatePlusTask(max, tenTransition); }
+                else if (minus && !plus){ t = generateMinusTask(max, tenTransition); }
+                else { t = null; }
 
                 tasks[i] = t;
             }
@@ -49,16 +51,16 @@ namespace Mathefuchs._3_Model
 
         private MTask generatePlusTask(int max, bool tenTransition)
         {
-            int num1 = rnd.Next(0, max);
-            int num2 = rnd.Next(0, max - num1);
+            int num1 = rnd.Next(1, max);
+            int num2 = rnd.Next(1, max - num1);
 
             return new MTask(num1, num2, Operator.Plus);
         }
 
         private MTask generateMinusTask(int max, bool tenTransition)
         {
-            int num1 = rnd.Next(0, max);
-            int num2 = rnd.Next(0 + num1, max);
+            int num1 = rnd.Next(1, max);
+            int num2 = rnd.Next(1, num1);
 
             return new MTask(num1, num2, Operator.Minus);
         }

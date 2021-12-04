@@ -88,7 +88,6 @@
     </Compile>
     <Compile Include="2 Viewmodels\ViewModel.cs" />
     <Compile Include="2 Viewmodels\ViewModelDataContext.cs" />
-    <Compile Include="3 Model\CalculationElement.cs" />
     <Compile Include="3 Model\Minigame.cs" />
     <Compile Include="3 Model\Operator.cs" />
     <Compile Include="3 Model\MTask.cs" />
