@@ -20,6 +20,8 @@ namespace Mathefuchs._2_Viewmodels
         static Training training;
         public static ViewModelDataContext vmdc;
 
+        public static bool plusvideo = true;
+
         internal static void SetTasks(int tasks, Window window)
         {
             nrOfTaks = tasks;

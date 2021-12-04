@@ -8,7 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/frida%20standardhaltung.svg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/fritz%20standardhaltung.svg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/fritzderfuchs.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/minusrechnen.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/opening.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/plusrechnen.mp4")]
 
 

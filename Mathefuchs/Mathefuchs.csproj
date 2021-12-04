@@ -86,6 +86,9 @@
     <Compile Include="1 Views\Training_Plus_Minus.xaml.cs">
       <DependentUpon>Training_Plus_Minus.xaml</DependentUpon>
     </Compile>
+    <Compile Include="1 Views\VideoPlayer.xaml.cs">
+      <DependentUpon>VideoPlayer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="2 Viewmodels\ViewModel.cs" />
     <Compile Include="2 Viewmodels\ViewModelDataContext.cs" />
     <Compile Include="3 Model\Minigame.cs" />
@@ -105,6 +108,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="1 Views\Training_Plus_Minus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="1 Views\VideoPlayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,6 +152,12 @@
     <Resource Include="Images\Fritz Standardhaltung.png" />
     <Resource Include="Images\Frida.png" />
     <Resource Include="Images\Hintergrund.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Videos\FritzDerFuchs.mp4" />
+    <Content Include="Videos\MinusRechnen.mp4" />
+    <Content Include="Videos\Opening.mp4" />
+    <Content Include="Videos\PlusRechnen.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

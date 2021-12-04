@@ -22,7 +22,6 @@ C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDiffic
 C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.baml
 C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.baml
 C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csprojAssemblyReference.cache
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.g.cs
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.g.cs
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.g.cs
@@ -48,3 +47,6 @@ C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.Properties.Resources.resources
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.GenerateResource.cache
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.g.cs
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_Content.g.cs
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.baml

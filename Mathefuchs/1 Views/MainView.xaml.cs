@@ -21,7 +21,6 @@ namespace Mathefuchs._1_Views
     /// </summary>
     public partial class MainView : Page
     {
-        Window win;
         public MainView()
         {
             InitializeComponent();
@@ -29,12 +28,14 @@ namespace Mathefuchs._1_Views
 
         private void showAdditionVideo(object sender, RoutedEventArgs e)
         {
-            //TODO
+            ViewModel.plusvideo = true;
+            ViewModel.ChangePage(new Mathefuchs._1_Views.VideoPlayer(), Window.GetWindow(this));
         }
 
         private void showSubtractionVideo(object sender, RoutedEventArgs e)
         {
-            //TODO
+            ViewModel.plusvideo = false;
+            ViewModel.ChangePage(new Mathefuchs._1_Views.VideoPlayer(), Window.GetWindow(this));
         }
         
         private void Training_Addition_Click(object sender, RoutedEventArgs e)
