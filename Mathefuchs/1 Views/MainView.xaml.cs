@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+using Mathefuchs._2_Viewmodels;
+
+
+namespace Mathefuchs._1_Views
+{
+    /// <summary>
+    /// Interaktionslogik für MainView.xaml
+    /// </summary>
+    public partial class MainView : Page
+    {
+        Window win;
+        public MainView()
+        {
+            InitializeComponent();
+        }
+
+        private void showAdditionVideo(object sender, RoutedEventArgs e)
+        {
+            //TODO
+        }
+
+        private void showSubtractionVideo(object sender, RoutedEventArgs e)
+        {
+            //TODO
+        }
+        
+        private void Training_Addition_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.TrainingChoice(true, false, Window.GetWindow(this));
+        }
+
+        private void Training_Subtraction_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.TrainingChoice(false, true, Window.GetWindow(this));
+        }
+        private void Training_AddSub_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.TrainingChoice(true, true, Window.GetWindow(this));
+
+        }
+    }
+}

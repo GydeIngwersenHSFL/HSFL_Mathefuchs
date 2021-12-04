@@ -1,0 +1,24 @@
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe.config
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.pdb
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csprojAssemblyReference.cache
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.g.cs
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\App.g.cs
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.cache
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.lref
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.baml
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.g.resources
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.Properties.Resources.resources
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.GenerateResource.cache
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.g.cs
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.baml
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.g.cs
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.g.cs
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.g.cs
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.baml
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.baml
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.baml
+C:\Users\thegy\source\repos\Mathefuchs\Mathefuchs\obj\Debug\GeneratedInternalTypeHelper.g.cs
