@@ -27,11 +27,11 @@ namespace Mathefuchs._1_Views
 
         private void Tasks10_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.SetTasks(10, Window.GetWindow(this));
+            ViewModel.SetTasks(5, Window.GetWindow(this));
         }
         private void Tasks15_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.SetTasks(15, Window.GetWindow(this));
+            ViewModel.SetTasks(10, Window.GetWindow(this));
         }
         private void Tasks20_Click(object sender, RoutedEventArgs e)
         {

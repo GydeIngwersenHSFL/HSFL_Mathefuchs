@@ -25,8 +25,8 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Click="Tasks10_Click" Content="10" Grid.Row="1" Grid.Column="0" Width="120" Height="60"></Button>
-            <Button Click="Tasks15_Click" Content="15" Grid.Row="1" Grid.Column="1" Width="120" Height="60"></Button>
+            <Button Click="Tasks10_Click" Content="5" Grid.Row="1" Grid.Column="0" Width="120" Height="60"></Button>
+            <Button Click="Tasks15_Click" Content="10" Grid.Row="1" Grid.Column="1" Width="120" Height="60"></Button>
             <Button Click="Tasks20_Click" Content="20" Grid.Row="1" Grid.Column="2" Width="120" Height="60"></Button>
         </Grid>
     </DockPanel>
