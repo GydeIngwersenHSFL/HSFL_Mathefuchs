@@ -21,6 +21,7 @@ namespace Mathefuchs._2_Viewmodels
         public static ViewModelDataContext vmdc;
 
         public static bool plusvideo = true;
+        public static bool openingvideo = true;
 
         internal static void SetTasks(int tasks, Window window)
         {

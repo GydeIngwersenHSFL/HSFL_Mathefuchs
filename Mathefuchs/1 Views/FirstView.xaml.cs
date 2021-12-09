@@ -28,7 +28,8 @@ namespace Mathefuchs
 
         private void StartProgram_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
+            ViewModel.openingvideo = true;
+            ViewModel.ChangePage(new Mathefuchs._1_Views.VideoPlayer(), Window.GetWindow(this));
         }
     }
 }

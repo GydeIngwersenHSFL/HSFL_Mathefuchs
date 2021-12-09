@@ -7,8 +7,22 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="VideoPlayer">
-    <Grid>
-
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <MediaElement Source="C:\Users\Lenovo\source\repos\HSFL_Mathefuchs-main\HSFL_Mathefuchs-main\Mathefuchs\Videos\MinusRechnen.mp4" Name="minusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="C:\Users\Lenovo\source\repos\HSFL_Mathefuchs-main\HSFL_Mathefuchs-main\Mathefuchs\Videos\PlusRechnen.mp4" Name="plusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="C:\Users\Lenovo\source\repos\HSFL_Mathefuchs-main\HSFL_Mathefuchs-main\Mathefuchs\Videos\Opening.mp4" Name="openingVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="C:\Users\Lenovo\source\repos\HSFL_Mathefuchs-main\HSFL_Mathefuchs-main\Mathefuchs\Videos\FritzDerFuchs.mp4" Name="fritzVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <!-- Play- und Pause-Buttons -->
+        <!--<StackPanel Grid.Row="1">
+            <WrapPanel HorizontalAlignment="Center">
+                <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
+                <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause/Weiter</Button>
+            </WrapPanel>
+        </StackPanel>-->
     </Grid>
 </Page>
 
