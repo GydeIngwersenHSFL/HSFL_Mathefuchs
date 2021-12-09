@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Mathefuchs._2_Viewmodels;
 
 namespace Mathefuchs._1_Views
 {
@@ -56,9 +57,9 @@ namespace Mathefuchs._1_Views
         // {
         //     video().Pause();
         // }
-        // private void endeVideo(object sender, RoutedEventArgs e)
-        // {
-        //     ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
-        // }
+        private void endeVideo(object sender, RoutedEventArgs e)
+        {
+            ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
+        }
     }
 }
