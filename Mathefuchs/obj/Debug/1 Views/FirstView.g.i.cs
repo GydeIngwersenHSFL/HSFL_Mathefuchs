@@ -41,7 +41,7 @@ namespace Mathefuchs {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 30 "..\..\..\1 Views\FirstView.xaml"
+        #line 41 "..\..\..\1 Views\FirstView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button StartProgram;
         
@@ -81,7 +81,7 @@ namespace Mathefuchs {
             case 1:
             this.StartProgram = ((System.Windows.Controls.Button)(target));
             
-            #line 32 "..\..\..\1 Views\FirstView.xaml"
+            #line 42 "..\..\..\1 Views\FirstView.xaml"
             this.StartProgram.Click += new System.Windows.RoutedEventHandler(this.StartProgram_Click);
             
             #line default

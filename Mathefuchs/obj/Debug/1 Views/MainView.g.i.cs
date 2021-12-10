@@ -72,7 +72,7 @@ namespace Mathefuchs._1_Views {
             {
             case 1:
             
-            #line 31 "..\..\..\1 Views\MainView.xaml"
+            #line 29 "..\..\..\1 Views\MainView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Training_Addition_Click);
             
             #line default
@@ -80,7 +80,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 2:
             
-            #line 32 "..\..\..\1 Views\MainView.xaml"
+            #line 61 "..\..\..\1 Views\MainView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Training_Subtraction_Click);
             
             #line default
@@ -88,7 +88,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 3:
             
-            #line 33 "..\..\..\1 Views\MainView.xaml"
+            #line 92 "..\..\..\1 Views\MainView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Training_AddSub_Click);
             
             #line default
@@ -96,7 +96,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 4:
             
-            #line 41 "..\..\..\1 Views\MainView.xaml"
+            #line 130 "..\..\..\1 Views\MainView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.showAdditionVideo);
             
             #line default
@@ -104,7 +104,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 5:
             
-            #line 42 "..\..\..\1 Views\MainView.xaml"
+            #line 161 "..\..\..\1 Views\MainView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.showSubtractionVideo);
             
             #line default

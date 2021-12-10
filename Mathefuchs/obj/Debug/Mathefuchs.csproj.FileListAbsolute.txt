@@ -51,3 +51,32 @@ C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Vid
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_Content.g.cs
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.baml
 C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csprojAssemblyReference.cache
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe.config
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.pdb
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csprojAssemblyReference.cache
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\App.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_Content.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.cache
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.lref
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.g.resources
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.Properties.Resources.resources
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.GenerateResource.cache
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
