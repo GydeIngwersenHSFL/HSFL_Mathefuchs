@@ -80,35 +80,3 @@ C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.cspr
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Minigame.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameEnd.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\App.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_Content.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.cache
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.lref
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe.config
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.pdb
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Minigame.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameEnd.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.baml
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.g.resources
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.Properties.Resources.resources
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.GenerateResource.cache
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
-C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb

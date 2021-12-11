@@ -14,9 +14,10 @@ namespace Mathefuchs._1_Views
             InitializeComponent();
         }
 
-        private void Next_Click(object sender, RoutedEventArgs e)
+        public void NextClick(object sender, RoutedEventArgs e)
         {
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
+
     }
 }

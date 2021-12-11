@@ -83,12 +83,6 @@
     <Compile Include="1 Views\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="1 Views\Minigame.xaml.cs">
-      <DependentUpon>Minigame.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="1 Views\MinigameEnd.xaml.cs">
-      <DependentUpon>MinigameEnd.xaml</DependentUpon>
-    </Compile>
     <Compile Include="1 Views\Training_Plus_Minus.xaml.cs">
       <DependentUpon>Training_Plus_Minus.xaml</DependentUpon>
     </Compile>
@@ -112,14 +106,6 @@
     <Page Include="1 Views\MainView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="1 Views\Minigame.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="1 Views\MinigameEnd.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="1 Views\Training_Plus_Minus.xaml">
       <SubType>Designer</SubType>
