@@ -23,6 +23,7 @@
             <WrapPanel HorizontalAlignment="Center">
                 <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
                 <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause/Weiter</Button>
+                <Button Name="btnEnd" Click="btnEnd_Click">Video Beenden</Button>
             </WrapPanel>
         </StackPanel>
     </Grid>

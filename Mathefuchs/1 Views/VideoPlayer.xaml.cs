@@ -61,6 +61,11 @@ namespace Mathefuchs._1_Views
             video().Pause();
         }
 
+        private void btnEnd_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
+        }
+
         private void endeVideo(object sender, RoutedEventArgs e)
         {
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
