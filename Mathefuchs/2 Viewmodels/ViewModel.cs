@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 using Mathefuchs._3_Model;
 
@@ -15,6 +16,13 @@ namespace Mathefuchs._2_Viewmodels
         public static ViewModelDataContext vmdc;
 
         public static bool plusvideo = true;
+
+        internal static void GoToMinigame(Window window)
+        {
+            //here you can add a random generator and then route to other minigame views
+            ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
+        }
+
         public static bool openingvideo = true;
 
         internal static void SetTasks(int tasks, Window window)
