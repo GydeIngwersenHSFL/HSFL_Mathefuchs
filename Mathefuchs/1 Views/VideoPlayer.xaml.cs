@@ -9,6 +9,8 @@ namespace Mathefuchs._1_Views
     /// </summary>
     public partial class VideoPlayer : Page
     {
+
+        /*
         public VideoPlayer()
         {
             InitializeComponent();
@@ -49,5 +51,6 @@ namespace Mathefuchs._1_Views
         {
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
+        */
     }
 }

@@ -12,12 +12,11 @@ namespace Mathefuchs._1_Views
         public EndOfTraining()
         {
             InitializeComponent();
-            Console.WriteLine(ViewModel.vmdc.info);
         }
 
         public void Next_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.ChangePage(new Mathefuchs._1_Views.Minigame(), Window.GetWindow(this));
+            ViewModel.ChangePage(new Mathefuchs._1_Views.MinigameView(), Window.GetWindow(this));
         }
     }
 }

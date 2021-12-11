@@ -83,12 +83,10 @@ namespace Mathefuchs._2_Viewmodels
 
         }
 
+        /*
         public static void NewMinigame()
         {
             vmdc.minigame = new Minigame();
-            vmdc.info =
-                "Oh nein! Frida hat sich verlaufen.\n" +
-                " Kannst du ihr helfen, den richtigen Weg zu finden?";
         }
 
         public static void checkMinigameguess(string guess, Window window)
@@ -96,14 +94,15 @@ namespace Mathefuchs._2_Viewmodels
             if (guess == vmdc.minigame.solution)
             {
                 //goTo Minigame End
-                ChangePage(new Mathefuchs._1_Views.MinigameEnd(), window);
+                ChangePage(new Mathefuchs._1_Views.EndOfMinigame(), window);
             }
             else
             {
-                ChangePage(new Mathefuchs._1_Views.Minigame(), window);
+                ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
                 vmdc.info = "Hier bin ich leider falsch...";
             }
         }
+        */
 
         //Navigation
         public static void ChangePage(Page page, Window window)
