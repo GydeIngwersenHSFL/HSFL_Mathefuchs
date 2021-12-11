@@ -40,7 +40,7 @@
             </TextBlock>
         </Border>
 
-        <Button Click="Tasks10_Click" Content="5 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="0">
+        <Button Click="Tasks5_Click" Content="5 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="0">
             
             <Button.Style>
                 <Style TargetType="Button">
@@ -67,7 +67,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Click="Tasks15_Click" Content="10 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="1">
+        <Button Click="Tasks10_Click" Content="10 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="1">
 
             <Button.Style>
                 <Style TargetType="Button">
