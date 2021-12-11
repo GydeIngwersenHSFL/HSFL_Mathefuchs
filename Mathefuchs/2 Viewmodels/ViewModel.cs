@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Navigation;
 using Mathefuchs._3_Model;
 
 namespace Mathefuchs._2_Viewmodels
@@ -87,6 +81,28 @@ namespace Mathefuchs._2_Viewmodels
             minus = minus1;
             ChangePage(new Mathefuchs._1_Views.ChooseDifficulty(), window);
 
+        }
+
+        public static void NewMinigame()
+        {
+            vmdc.minigame = new Minigame();
+            vmdc.info =
+                "Oh nein! Frida hat sich verlaufen.\n" +
+                " Kannst du ihr helfen, den richtigen Weg zu finden?";
+        }
+
+        public static void checkMinigameguess(string guess, Window window)
+        {
+            if (guess == vmdc.minigame.solution)
+            {
+                //goTo Minigame End
+                ChangePage(new Mathefuchs._1_Views.MinigameEnd(), window);
+            }
+            else
+            {
+                ChangePage(new Mathefuchs._1_Views.Minigame(), window);
+                vmdc.info = "Hier bin ich leider falsch...";
+            }
         }
 
         //Navigation

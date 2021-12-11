@@ -1,9 +1,4 @@
 ﻿using Mathefuchs._3_Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mathefuchs._2_Viewmodels
 {
@@ -50,6 +45,12 @@ namespace Mathefuchs._2_Viewmodels
             get { return trainingv; }
             set { trainingv = value; }
         }
-        
+
+        private Minigame minigamev;
+        public Minigame minigame
+        {
+            get { return minigamev; }
+            set { minigamev= value; }
+        }
     }
 }
