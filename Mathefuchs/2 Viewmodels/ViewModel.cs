@@ -5,7 +5,7 @@ using Mathefuchs._3_Model;
 
 namespace Mathefuchs._2_Viewmodels
 {
-    class ViewModel
+    public class ViewModel
     {
         static int nrOfTaks = 10;
         static bool plus = false;
@@ -16,14 +16,13 @@ namespace Mathefuchs._2_Viewmodels
         public static ViewModelDataContext vmdc;
 
         public static bool plusvideo = true;
+        public static bool openingvideo = true;
 
         internal static void GoToMinigame(Window window)
         {
             //here you can add a random generator and then route to other minigame views
             ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
-        }
-
-        public static bool openingvideo = true;
+        }   
 
         internal static void SetTasks(int tasks, Window window)
         {
@@ -69,7 +68,6 @@ namespace Mathefuchs._2_Viewmodels
                 vmdc.info = "Fast! Versuche es noch einmal!";
                 ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(), window);
             }
-
         }
 
         internal static void SetDifficulty(int diff, Window window)

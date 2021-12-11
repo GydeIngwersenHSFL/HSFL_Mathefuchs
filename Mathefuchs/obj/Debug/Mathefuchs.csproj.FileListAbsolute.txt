@@ -116,3 +116,4 @@ C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.cspr
 C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
 C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
 C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
+C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csprojAssemblyReference.cache

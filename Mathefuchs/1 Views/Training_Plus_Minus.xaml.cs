@@ -20,7 +20,4 @@ namespace Mathefuchs._1_Views
             ViewModel.CheckGuess(tb.Text, Window.GetWindow(this));
         }
     }
-
-
-
 }

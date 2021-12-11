@@ -20,7 +20,7 @@ namespace Mathefuchs._1_Views
 
         private static string CreateAbsolutePathTo(string mediaFile)
         {
-            return Path.Combine(new FileInfo(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName).DirectoryName, mediaFile);
+            return Path.Combine(new FileInfo(Directory.GetParent(Environment.CurrentDirectory).FullName).DirectoryName, mediaFile);
         }
 
         private MediaElement video()
@@ -28,24 +28,24 @@ namespace Mathefuchs._1_Views
             if (ViewModel.openingvideo == true)
             {
                 ViewModel.openingvideo = false;
-                openingVideo.Source = new Uri(CreateAbsolutePathTo(@"HSFL_Mathefuchs\Mathefuchs\Videos\Opening.mp4"), UriKind.Absolute);
+                openingVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\Opening.mp4"), UriKind.Absolute);
                 return openingVideo;
             }
             else if (ViewModel.plusvideo == true)
             {
                 ViewModel.plusvideo = false;
-                plusVideo.Source = new Uri(CreateAbsolutePathTo(@"HSFL_Mathefuchs\Mathefuchs\Videos\PlusRechnen.mp4"), UriKind.Absolute);
+                plusVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\PlusRechnen.mp4"), UriKind.Absolute);
                 return plusVideo;
             }        
             else if (ViewModel.plusvideo == false)
             {
                 ViewModel.plusvideo = true;
-                minusVideo.Source = new Uri(CreateAbsolutePathTo(@"HSFL_Mathefuchs\Mathefuchs\Videos\MinusRechnen.mp4"), UriKind.Absolute);
+                minusVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\MinusRechnen.mp4"), UriKind.Absolute);
                 return minusVideo;
             }
             else
             {
-                fritzVideo.Source = new Uri(CreateAbsolutePathTo(@"HSFL_Mathefuchs\Mathefuchs\Videos\FritzDerFuchs.mp4"), UriKind.Absolute);
+                fritzVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\FritzDerFuchs.mp4"), UriKind.Absolute);
                 return fritzVideo;
             }             
         }
