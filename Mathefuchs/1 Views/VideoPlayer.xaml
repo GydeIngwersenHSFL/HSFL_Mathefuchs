@@ -12,10 +12,10 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <MediaElement Source=@"..\Videos\MinusRechnen.mp4" Name="minusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
-        <MediaElement Source=@"..\Videos\PlusRechnen.mp4" Name="plusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
-        <MediaElement Source=@"..\Videos\Opening.mp4" Name="openingVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
-        <MediaElement Source=@"..\Videos\FritzDerFuchs.mp4" Name="fritzVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="..\Videos\MinusRechnen.mp4" Name="minusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="..\Videos\PlusRechnen.mp4" Name="plusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="..\Videos\Opening.mp4" Name="openingVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
+        <MediaElement Source="..\Videos\FritzDerFuchs.mp4" Name="fritzVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
         <!-- Play- und Pause-Buttons -->
         <!--<StackPanel Grid.Row="1">
             <WrapPanel HorizontalAlignment="Center">

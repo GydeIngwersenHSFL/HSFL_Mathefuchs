@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "FmZjk7JXU6s/1cswDpHVv9BxIMSYIQooeoAaIaMWtd6y5U/ACt4p0j7mTKIkharjC7EvvyhEmy5F7OKJlxQc5Q==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\thegy\\source\\repos\\MatheFuchsUnitTest\\MatheFuchsUnitTest\\MatheFuchsUnitTest.csproj",
+  "dgSpecHash": "DKU3rhFQFnkOewZW8IPGWYa0o7kwoA5J1otVwCV6WVJTmaYqELfl6DjttuAjAXv1fgoEmbdCdOB8jRFr1SFEwg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\doris\\Source\\Repos\\HSFL_Mathefuchs\\MatheFuchsUnitTest\\MatheFuchsUnitTest.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Das Paket \"Microsoft.AspNetCore.App.Ref\" wurde nicht gefunden. Es sind keine Pakete mit dieser ID in folgenden Quellen vorhanden: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
