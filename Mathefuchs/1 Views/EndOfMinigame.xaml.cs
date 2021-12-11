@@ -5,16 +5,16 @@ using Mathefuchs._2_Viewmodels;
 namespace Mathefuchs._1_Views
 {
     /// <summary>
-    /// Interaktionslogik für MinigameEnd.xaml
+    /// Interaktionslogik für EndOfMinigame.xaml
     /// </summary>
-    public partial class MinigameEnd : Page
+    public partial class EndOfMinigame : Page
     {
-        public MinigameEnd()
+        public EndOfMinigame()
         {
             InitializeComponent();
         }
 
-        public void NextClick(object sender, RoutedEventArgs e)
+        public void Next_Click(object sender, RoutedEventArgs e)
         {
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }

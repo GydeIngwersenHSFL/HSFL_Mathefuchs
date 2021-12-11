@@ -1,0 +1,42 @@
+﻿<Page x:Class="Mathefuchs._1_Views.MinigameView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mathefuchs._2_Viewmodels"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Minigame">
+
+    <Page.DataContext>
+        <local:ViewModelDataContext/>
+    </Page.DataContext>
+
+    <Page.Background>
+        <ImageBrush ImageSource="/Images/Hintergrund.png" />
+    </Page.Background>
+
+
+    <DockPanel>
+
+        <Label Content="Oh Nein! Frida hat sich beim Pilze sammeln verlaufen." DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
+        <Label Content="Findest du den richtigen Weg?" DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
+        
+        <Image Source="/Images/minib.png" Stretch="Uniform"/>
+
+        <Grid DockPanel.Dock="Right">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button Click="Wrong_Click" Content="A" Grid.Row="0" Grid.Column="2" Width="60" Height="60" Background="AntiqueWhite"></Button>
+            <Button Click="Right_Click" Content="B" Grid.Row="1" Grid.Column="2" Width="60" Height="60" Background="AntiqueWhite"></Button>
+            <Button Click="Wrong_Click" Content="C" Grid.Row="2" Grid.Column="2" Width="60" Height="60" Background="AntiqueWhite"></Button>
+
+        </Grid>
+
+    </DockPanel>
+
+</Page>

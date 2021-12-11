@@ -80,3 +80,7 @@ C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.cspr
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.g.cs
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.g.cs
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.baml
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.baml

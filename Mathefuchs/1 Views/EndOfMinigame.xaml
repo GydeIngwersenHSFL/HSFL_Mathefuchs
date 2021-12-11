@@ -1,4 +1,4 @@
-﻿<Page x:Class="Mathefuchs._1_Views.MinigameEnd"
+﻿<Page x:Class="Mathefuchs._1_Views.EndOfMinigame"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -17,16 +17,16 @@
     </Page.Background>
 
     <DockPanel>
-            <Image Source="/Images/Frida.png" DockPanel.Dock="Left"/>
+        <Image Source="/Images/Frida.png" DockPanel.Dock="Left"/>
 
-            <TextBlock DockPanel.Dock="Top" Text="{Binding info}" FontSize="20"  HorizontalAlignment="Center"/>
+        <Label Content="Danke! " DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
 
-            <Image Source="{Binding minigame.png}" DockPanel.Dock="Left"/>
+        <Image Source="{Binding minigame.png}" DockPanel.Dock="Left"/>
 
-            <Grid>
+        <Grid>
 
             <Button Click="Next_Click" Content="Weiter" Grid.Row="2" Grid.Column="2" Width="60" Height="60" Background="AntiqueWhite"></Button>
 
-            </Grid>
-        </DockPanel>
+        </Grid>
+    </DockPanel>
 </Page>

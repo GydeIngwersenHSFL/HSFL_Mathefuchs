@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 using Mathefuchs._3_Model;
 
@@ -15,6 +16,13 @@ namespace Mathefuchs._2_Viewmodels
         public static ViewModelDataContext vmdc;
 
         public static bool plusvideo = true;
+
+        internal static void GoToMinigame(Window window)
+        {
+            //here you can add a random generator and then route to other minigame views
+            ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
+        }
+
         public static bool openingvideo = true;
 
         internal static void SetTasks(int tasks, Window window)
@@ -83,12 +91,10 @@ namespace Mathefuchs._2_Viewmodels
 
         }
 
+        /*
         public static void NewMinigame()
         {
             vmdc.minigame = new Minigame();
-            vmdc.info =
-                "Oh nein! Frida hat sich verlaufen.\n" +
-                " Kannst du ihr helfen, den richtigen Weg zu finden?";
         }
 
         public static void checkMinigameguess(string guess, Window window)
@@ -96,14 +102,15 @@ namespace Mathefuchs._2_Viewmodels
             if (guess == vmdc.minigame.solution)
             {
                 //goTo Minigame End
-                ChangePage(new Mathefuchs._1_Views.MinigameEnd(), window);
+                ChangePage(new Mathefuchs._1_Views.EndOfMinigame(), window);
             }
             else
             {
-                ChangePage(new Mathefuchs._1_Views.Minigame(), window);
+                ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
                 vmdc.info = "Hier bin ich leider falsch...";
             }
         }
+        */
 
         //Navigation
         public static void ChangePage(Page page, Window window)
