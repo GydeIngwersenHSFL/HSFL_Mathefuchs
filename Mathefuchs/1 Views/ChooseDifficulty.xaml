@@ -10,24 +10,128 @@
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
-    <DockPanel>
-        <TextBlock DockPanel.Dock="Top" Text="Wie schwer sollen die Aufgaben sein?" HorizontalAlignment="Center" FontSize="20"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <Button Click="Easy_Click" Content="leicht" Grid.Row="1" Grid.Column="0" Width="120" Height="60"></Button>
-            <Button Click="Medium_Click" Content="mittel" Grid.Row="1" Grid.Column="1" Width="120" Height="60"></Button>
-            <Button Click="Hard_Click" Content="schwer" Grid.Row="1" Grid.Column="2" Width="120" Height="60"></Button>
-        </Grid>
-    </DockPanel>
-    
+        <Border Grid.ColumnSpan="3"
+                BorderThickness="1"
+                CornerRadius="20"
+                Background="#3B3838"
+                BorderBrush="#3B3838"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="600"
+                Height="50">
+
+            <TextBlock Text="Wie schwer sollen die Aufgaben sein?"
+                   FontSize="30"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Foreground="White">
+            </TextBlock>
+        </Border>
+
+        <Button Click="Easy_Click" Grid.Row="1" Grid.Column="0">
+            <DockPanel Width="175">
+                <TextBlock Text="Leicht" FontSize="30" HorizontalAlignment="Left"/>
+                <Image Source="/Images/Icons/Leicht.png" HorizontalAlignment="Right" MaxWidth="60"/>
+            </DockPanel>
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#E9C737"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#F3E091"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Click="Medium_Click" Grid.Row="1" Grid.Column="1">
+            <DockPanel Width="175">
+                <TextBlock Text="Mittel" FontSize="30" HorizontalAlignment="Left"/>
+                <Image Source="/Images/Icons/Mittel.png" HorizontalAlignment="Right" MaxWidth="60"/>
+            </DockPanel>
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#E9591F"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#EF885F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Click="Hard_Click" Grid.Row="1" Grid.Column="2" >
+            <DockPanel Width="175">
+                <TextBlock Text="Schwer" FontSize="30" HorizontalAlignment="Left"/>
+                <Image Source="/Images/Icons/Schwer.png" HorizontalAlignment="Right" MaxWidth="60"/>
+            </DockPanel>
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#910D0D"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#B41010"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+
 </Page>
