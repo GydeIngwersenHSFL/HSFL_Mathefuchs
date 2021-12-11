@@ -10,24 +10,116 @@
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
-    <DockPanel>
-        <TextBlock DockPanel.Dock="Top" Text="Wie viele Aufgaben möchtest du lösen?" FontSize="20" HorizontalAlignment="Center" />
+        <Border Grid.ColumnSpan="3"
+                BorderThickness="1"
+                CornerRadius="20"
+                Background="#3B3838"
+                BorderBrush="#3B3838"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="600"
+                Height="50">
 
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <Button Click="Tasks10_Click" Content="5" Grid.Row="1" Grid.Column="0" Width="120" Height="60"></Button>
-            <Button Click="Tasks15_Click" Content="10" Grid.Row="1" Grid.Column="1" Width="120" Height="60"></Button>
-            <Button Click="Tasks20_Click" Content="20" Grid.Row="1" Grid.Column="2" Width="120" Height="60"></Button>
-        </Grid>
-    </DockPanel>
+            <TextBlock Text="Wie viele Aufgaben möchtest du lösen?"
+                   FontSize="30"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Foreground="White">
+            </TextBlock>
+        </Border>
+
+        <Button Click="Tasks10_Click" Content="5 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="0">
+            
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#E9C737"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#F3E091"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Click="Tasks15_Click" Content="10 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="1">
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#E9591F"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#EF885F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Click="Tasks20_Click" Content="20 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="2">
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#910D0D"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#B41010"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
 </Page>
