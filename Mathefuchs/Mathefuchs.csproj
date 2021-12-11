@@ -159,6 +159,8 @@
     <Resource Include="Images\Icons\Minus.png" />
     <Resource Include="Images\Icons\PlusUndMinus.png" />
     <Resource Include="Images\Icons\Video.png" />
+    <Resource Include="Images\minib.png" />
+    <Resource Include="Images\minic.png" />
     <Content Include="Videos\FritzDerFuchs.mp4" />
     <Content Include="Videos\MinusRechnen.mp4" />
     <Content Include="Videos\Opening.mp4" />
