@@ -149,3 +149,7 @@ C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwarePr
 C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
 C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.g.cs
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.baml
+C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.baml

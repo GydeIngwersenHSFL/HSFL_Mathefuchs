@@ -69,10 +69,38 @@
                 <Grid DockPanel.Dock="Top">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Click="Ok_Click" Content="OK" Grid.Row="1" Grid.Column="2" Width="60" Height="60" Background="AntiqueWhite"></Button>
+                    <Button Click="Ok_Click" Grid.Row="1" Margin="10">
+                        <DockPanel Width="150">
+                            <TextBlock Text="OK" FontSize="30" HorizontalAlignment="Center"/>
+                            <Image Source="/Images/Icons/Pfeil.png" HorizontalAlignment="Right" MaxWidth="40"/>
+                        </DockPanel>
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#E9591F"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#EF885F"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="200" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                    </ContentPresenter>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
 
                 </Grid>
                 <Label Content="" DockPanel.Dock="Top" FontSize="40"  HorizontalAlignment="Center"/>

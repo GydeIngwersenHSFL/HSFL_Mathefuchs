@@ -72,7 +72,7 @@ namespace Mathefuchs._1_Views {
             {
             case 1:
             
-            #line 133 "..\..\..\1 Views\MinigameView.xaml"
+            #line 34 "..\..\..\1 Views\MinigameView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Wrong_Click);
             
             #line default
@@ -80,7 +80,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 2:
             
-            #line 159 "..\..\..\1 Views\MinigameView.xaml"
+            #line 35 "..\..\..\1 Views\MinigameView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Right_Click);
             
             #line default
@@ -88,7 +88,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 3:
             
-            #line 185 "..\..\..\1 Views\MinigameView.xaml"
+            #line 36 "..\..\..\1 Views\MinigameView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Wrong_Click);
             
             #line default
