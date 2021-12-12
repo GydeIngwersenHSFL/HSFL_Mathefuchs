@@ -12,17 +12,16 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-
+        <!-- Videos -->
         <MediaElement Name="minusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
         <MediaElement Name="plusVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
         <MediaElement Name="openingVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
         <MediaElement Name="fritzVideo" LoadedBehavior="Manual" MediaEnded="endeVideo"/>
-
-        <!-- Play- und Pause-Buttons -->
+        <!-- Play-, Pause- und Beenden-Buttons -->
         <StackPanel Grid.Row="1">
             <WrapPanel HorizontalAlignment="Center">
                 <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
-                <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause/Weiter</Button>
+                <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause</Button>
                 <Button Name="btnEnd" Click="btnEnd_Click">Video Beenden</Button>
             </WrapPanel>
         </StackPanel>

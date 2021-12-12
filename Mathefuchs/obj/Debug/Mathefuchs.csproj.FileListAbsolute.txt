@@ -116,3 +116,36 @@ C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.cspr
 C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
 C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
 C:\Users\doris\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe.config
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.exe
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\bin\Debug\Mathefuchs.pdb
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\App.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_Content.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.cache
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs_MarkupCompile.lref
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseDifficulty.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\ChooseNrOfTasks.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfTraining.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\FirstView.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MainView.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Training_Plus_Minus.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\VideoPlayer.baml
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.g.resources
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.Properties.Resources.resources
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.GenerateResource.cache
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.exe
+C:\Users\Lenovo\OneDrive - Hochschule Flensburg\FH Flensburg\WiSe2021\SoftwareProjekt\HSFL_Mathefuchs\Mathefuchs\obj\Debug\Mathefuchs.pdb

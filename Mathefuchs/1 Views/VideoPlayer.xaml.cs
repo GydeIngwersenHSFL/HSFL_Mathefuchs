@@ -20,6 +20,9 @@ namespace Mathefuchs._1_Views
 
         private static string CreateAbsolutePathTo(string mediaFile)
         {
+            /*
+             * Diese Methode gibt den absoluten Pfad der übergebenen Datei zurück.
+             */
             return Path.Combine(new FileInfo(Directory.GetParent(Environment.CurrentDirectory).FullName).DirectoryName, mediaFile);
         }
 
@@ -27,47 +30,75 @@ namespace Mathefuchs._1_Views
         {
             if (ViewModel.openingvideo == true)
             {
+                /*
+                * Quellenzuweisung für das Video "Opening".
+                * Rückgabe des MediaElements "openingVideo".
+                */
                 ViewModel.openingvideo = false;
                 openingVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\Opening.mp4"), UriKind.Absolute);
                 return openingVideo;
             }
             else if (ViewModel.plusvideo == true)
             {
+                /*
+                * Quellenzuweisung für das Video "PlusRechnen".
+                * Rückgabe des MediaElements "plusVideo".
+                */
                 ViewModel.plusvideo = false;
                 plusVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\PlusRechnen.mp4"), UriKind.Absolute);
                 return plusVideo;
             }        
             else if (ViewModel.plusvideo == false)
             {
+                /*
+                * Quellenzuweisung für das Video "MinusRechnen".
+                * Rückgabe des MediaElements "minusVideo".
+                */
                 ViewModel.plusvideo = true;
                 minusVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\MinusRechnen.mp4"), UriKind.Absolute);
                 return minusVideo;
             }
             else
             {
+                /*
+                * Quellenzuweisung für das Video "FritzDerFuchs".
+                * Rückgabe des MediaElements "fritzVideo".
+                */
                 fritzVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\FritzDerFuchs.mp4"), UriKind.Absolute);
                 return fritzVideo;
             }             
         }
 
-        // Für Play- und Pause-Button
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Beim klicken des Play-Button: Wiedergabe des Videos
+             */
             video().Play();
         }
 
         private void btnPause_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Beim klicken des Pause-Button: Anhalten des Videos.
+             * ToDo: Weiter abspielen ab aktueller Position.
+             */
             video().Pause();
         }
 
         private void btnEnd_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Beim klicken des Beenden-Buttons: Video vorzeitig beenden und zum Hauptmenü zurückkehren.
+             */
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
 
         private void endeVideo(object sender, RoutedEventArgs e)
         {
+            /*
+             * Nach dem Abspielen eines Videos zum Hauptmenü zurückkehren.
+             */
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
     }
