@@ -17,7 +17,6 @@ namespace Mathefuchs
         {
             ViewModel.openingvideo = true;
             ViewModel.ChangePage(new Mathefuchs._1_Views.VideoPlayer(), Window.GetWindow(this));
-            //ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
     }
 }
