@@ -10,77 +10,92 @@
     <Page.DataContext>
         <local:ViewModelDataContext/>
     </Page.DataContext>
-    
+    <!-- Hintergrundbild -->
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
 
-
     <DockPanel>
+        <!-- Bild von Fritz -->
         <Image Source="/Images/Fritz zeigt.png" DockPanel.Dock="Left"/>
 
         <Grid DockPanel.Dock="Right">
+            <!-- Definition der Zeilen -->
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+            <!-- 1. Zeile -->
             <DockPanel Grid.Row="0">
+                <!-- Info-Text -->
                 <Label Content="{Binding info}" DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
 
                 <Grid DockPanel.Dock="Top">
+                    <!-- Definition der Spalten für 1. Zeile -->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-
+                    <!-- 2. Spalte -->
                     <DockPanel Grid.Column="1" >
+                        <!-- 1. Zufallszahl -->
                         <Label DockPanel.Dock="Right" Content="{Binding n1}" FontSize="40" Background="AntiqueWhite"  HorizontalAlignment="Right"/>
                     </DockPanel>
                 </Grid>
-
                 <Grid DockPanel.Dock="Top">
+                    <!-- Definition Spalten für 2. Zeile -->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
+                    <!-- 2. Spalte -->
                     <DockPanel Grid.Column="1" >
+                        <!-- 2. Zufallszahl -->
                         <Label DockPanel.Dock="Right" Content="{Binding n2}" FontSize="40" Background="AntiqueWhite"  HorizontalAlignment="Right"/>
                     </DockPanel>
+                    <!-- Operator -->
                     <Label Width="40" Grid.Column="1" Content="{Binding op}" DockPanel.Dock="Top" FontSize="40" Background="AntiqueWhite"  HorizontalAlignment="Left" />
                 </Grid>
-
-                <Label Content="" DockPanel.Dock="Top" Height="5" Width="250" HorizontalAlignment="Center" Background="Black"/> 
+                <!-- Strich -->
+                <Label Content="" DockPanel.Dock="Top" Height="5" Width="250" HorizontalAlignment="Center" Background="Black"/>
             </DockPanel>
-
+            <!-- 2. Zeile -->
             <DockPanel Grid.Row="1">
                 <Grid DockPanel.Dock="Top">
+                    <!-- Definition der Spalten für 2. Zeile -->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
+                    <!-- 2. Spalte -->
                     <DockPanel Grid.Column="1" >
+                        <!-- Ergebniseingabefeld -->
                         <TextBox Name="tb" Grid.Column="1" DockPanel.Dock="Top" FontSize="40" HorizontalAlignment="Right" Background="AntiqueWhite"  Width="90"/>
                     </DockPanel>
+                    <!-- Glecihheitszeichen -->
                     <Label Grid.Column="1" Width="40" Content="=" DockPanel.Dock="Top" FontSize="40" Background="AntiqueWhite"  HorizontalAlignment="Left" />
                 </Grid>
                 <Grid DockPanel.Dock="Top">
+                    <!-- Definition weiterer Spalten in 2. Spalte-->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
+                    <!-- Button Ok -->
                     <Button Click="Ok_Click" Grid.Row="1" Margin="10">
+                        <!-- Button Ok Style -->
                         <DockPanel Width="150">
                             <TextBlock Text="OK" FontSize="30" HorizontalAlignment="Center"/>
                             <Image Source="/Images/Icons/Pfeil.png" HorizontalAlignment="Right" MaxWidth="40"/>
                         </DockPanel>
-
+                        <!-- Hintergrund Button Ok -->
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#E9591F"/>
                                 <Setter Property="Cursor" Value="Hand"/>
-
+                                <!-- Hintergrund Button Ok IsMouseOver -->
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Background" Value="#EF885F"/>
@@ -88,7 +103,7 @@
                                 </Style.Triggers>
                             </Style>
                         </Button.Style>
-
+                        <!-- Ausrichtung Button Ok -->
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border Width="200" Height="70"
@@ -101,12 +116,9 @@
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
-
                 </Grid>
                 <Label Content="" DockPanel.Dock="Top" FontSize="40"  HorizontalAlignment="Center"/>
-                
             </DockPanel>
         </Grid>
-
     </DockPanel>
 </Page>

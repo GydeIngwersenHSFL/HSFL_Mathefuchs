@@ -6,21 +6,23 @@
         xmlns:local="clr-namespace:Mathefuchs._1_Views"
         mc:Ignorable="d"
         Title="ChooseDifficulty" Height="450" Width="800">
-
+    <!-- Hintergrundbild -->
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
     <Grid>
+        <!-- Definition Zeilen -->
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
+        <!-- Definition Spalten -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-
+        <!-- Rahmen -->
         <Border Grid.ColumnSpan="3"
                 BorderThickness="1"
                 CornerRadius="20"
@@ -30,7 +32,7 @@
                 VerticalAlignment="Center"
                 Width="600"
                 Height="50">
-
+            <!-- Text-Style -->
             <TextBlock Text="Wie schwer sollen die Aufgaben sein?"
                    FontSize="30"
                    TextAlignment="Center"
@@ -38,18 +40,19 @@
                    Foreground="White">
             </TextBlock>
         </Border>
-
+        <!-- Button Schwierigkeitsgrad leicht -->
         <Button Click="Easy_Click" Grid.Row="1" Grid.Column="0">
+            <!-- Button-Style Schwierigkeitsgrad leicht -->
             <DockPanel Width="175">
                 <TextBlock Text="Leicht" FontSize="30" HorizontalAlignment="Left"/>
                 <Image Source="/Images/Icons/Leicht.png" HorizontalAlignment="Right" MaxWidth="60"/>
             </DockPanel>
-
+            <!-- Hintergrund Button leicht -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#E9C737"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Button leicht IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#F3E091"/>
@@ -57,7 +60,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung des Buttons leicht -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
@@ -70,17 +73,19 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <!-- Button Schwierigkeitsgrad mittel -->
         <Button Click="Medium_Click" Grid.Row="1" Grid.Column="1">
+            <!-- Button-Style Schwierigkeitsgrad mittel -->
             <DockPanel Width="175">
                 <TextBlock Text="Mittel" FontSize="30" HorizontalAlignment="Left"/>
                 <Image Source="/Images/Icons/Mittel.png" HorizontalAlignment="Right" MaxWidth="60"/>
             </DockPanel>
-
+            <!-- Hintergrund Button mittel -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#E9591F"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Button mittel IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#EF885F"/>
@@ -88,7 +93,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung des Buttons mittel -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
@@ -101,17 +106,19 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <!-- Button Schwierigkeitsgrad schwer -->
         <Button Click="Hard_Click" Grid.Row="1" Grid.Column="2" >
+            <!-- Button-Style Schwierigkeitsgrad schwer -->
             <DockPanel Width="175">
                 <TextBlock Text="Schwer" FontSize="30" HorizontalAlignment="Left"/>
                 <Image Source="/Images/Icons/Schwer.png" HorizontalAlignment="Right" MaxWidth="60"/>
             </DockPanel>
-
+            <!-- Hintergrund Button schwer -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#910D0D"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Button schwer IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#B41010"/>
@@ -119,7 +126,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung des Buttons schwer -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
@@ -133,5 +140,4 @@
             </Button.Template>
         </Button>
     </Grid>
-
 </Page>

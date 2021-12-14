@@ -11,14 +11,13 @@
     <Page.DataContext>
         <local:ViewModelDataContext/>
     </Page.DataContext>
-
+    <!-- Hintergrundbild -->
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
 
-
     <DockPanel>
-
+        <!-- Rahmen des Textes 1. Zeile -->
         <Border Grid.Row="1"
                 BorderThickness="1"
                 CornerRadius="15"
@@ -30,7 +29,7 @@
                 Height="30"
                 Margin="0,10,0,0"
                 DockPanel.Dock="Top">
-
+            <!-- Text-Style 1. Zeile -->
             <TextBlock Text="Oh Nein! Frida hat sich beim Pilze sammeln verlaufen."
                    FontSize="20"
                    TextAlignment="Center"
@@ -38,6 +37,7 @@
                    Foreground="White">
             </TextBlock>
         </Border>
+        <!-- Rahmen des Textes 2. Zeile -->
         <Border Grid.Row="1"
                 BorderThickness="1"
                 CornerRadius="15"
@@ -49,7 +49,7 @@
                 Height="30"
                 Margin="0,10,0,0"
                 DockPanel.Dock="Top">
-
+            <!-- Text-Style 2. Zeile -->
             <TextBlock Text="Findest du den richtigen Weg?"
                    FontSize="20"
                    TextAlignment="Center"
@@ -59,17 +59,19 @@
         </Border>
 
         <Grid>
+            <!-- Definition der Zeilen -->
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+            <!-- Definition der Spalten -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-
+            <!-- Rahmen Weg A -->
             <Border Grid.Row="0"
                 BorderThickness="1"
                 CornerRadius="8"
@@ -80,7 +82,7 @@
                 Margin="10"
                 Width="60"
                 Height="35">
-
+                <!-- Text-Style Weg A -->
                 <TextBlock Text="Weg A"
                    FontSize="15"
                    TextAlignment="Center"
@@ -88,7 +90,7 @@
                    Foreground="Black">
                 </TextBlock>
             </Border>
-
+            <!-- Rahmen Weg B -->
             <Border Grid.Row="1"
                 BorderThickness="1"
                 CornerRadius="8"
@@ -99,7 +101,7 @@
                 Margin="10"
                 Width="60"
                 Height="35">
-
+                <!-- Text-Style Weg B -->
                 <TextBlock Text="Weg B"
                    FontSize="15"
                    TextAlignment="Center"
@@ -107,7 +109,7 @@
                    Foreground="Black">
                 </TextBlock>
             </Border>
-
+            <!-- Rahmen Weg C -->
             <Border Grid.Row="2"
                 BorderThickness="1"
                 CornerRadius="8"
@@ -118,7 +120,7 @@
                 Margin="10"
                 Width="60"
                 Height="35">
-
+                <!-- Text-Style Weg C -->
                 <TextBlock Text="Weg C"
                    FontSize="15"
                    TextAlignment="Center"
@@ -126,16 +128,18 @@
                    Foreground="Black">
                 </TextBlock>
             </Border>
-
+            <!-- Hintergrund des Minigames -->
             <Rectangle Fill="White" Grid.Column="1" Margin="0,10" Grid.RowSpan="3"/>
+            <!-- Bild des Minigames -->
             <Image Source="/Images/minib.png" Stretch="Uniform" Grid.Column="1"  Grid.RowSpan="3" HorizontalAlignment="Center"/>
-
+            <!-- Button A -->
             <Button Click="Wrong_Click" Content="A" FontSize="30" Grid.Row="0" Grid.Column="2">
+                <!-- Hintergrund Button A -->
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="#910D0D"/>
                         <Setter Property="Cursor" Value="Hand"/>
-
+                        <!-- Hintergrund Button A IsMouseOver -->
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter Property="Background" Value="#B41010"/>
@@ -143,7 +147,7 @@
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
-
+                <!-- Ausrichtung Button A -->
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Width="70" Height="70"
@@ -156,12 +160,14 @@
                     </ControlTemplate>
                 </Button.Template>
             </Button>
+            <!-- Button B -->
             <Button Click="Right_Click" Content="B" FontSize="30" Grid.Row="1" Grid.Column="2">
+                <!-- Hintergrund Button B -->
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="#E9591F"/>
                         <Setter Property="Cursor" Value="Hand"/>
-
+                        <!-- Hintergrund Button B IsMouseOver -->
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter Property="Background" Value="#EF885F"/>
@@ -169,7 +175,7 @@
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
-
+                <!-- Ausrichtung Button B -->
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Width="70" Height="70"
@@ -182,12 +188,14 @@
                     </ControlTemplate>
                 </Button.Template>
             </Button>
+            <!-- Button C -->
             <Button Click="Wrong_Click" Content="C" FontSize="30" Grid.Row="2" Grid.Column="2">
+                <!-- Hintergrund Button C -->
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="#E9C737"/>
                         <Setter Property="Cursor" Value="Hand"/>
-
+                        <!-- Hintergrund Button C IsMouseOver -->
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter Property="Background" Value="#F3E091"/>
@@ -195,7 +203,7 @@
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
-
+                <!-- Ausrichtung Button C -->
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Width="70" Height="70"
@@ -209,7 +217,5 @@
                 </Button.Template>
             </Button>
         </Grid>
-
     </DockPanel>
-
 </Page>

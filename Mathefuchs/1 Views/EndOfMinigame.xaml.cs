@@ -16,6 +16,10 @@ namespace Mathefuchs._1_Views
 
         public void Next_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Button zum Weiterklicken
+             * Wechseln zum Hauptmenü
+             */
             ViewModel.ChangePage(new Mathefuchs._1_Views.MainView(), Window.GetWindow(this));
         }
 

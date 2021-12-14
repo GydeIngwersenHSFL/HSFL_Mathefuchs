@@ -7,23 +7,25 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="EndOfTraining">
-
-    <Page.Background>
-        <ImageBrush ImageSource="/Images/Hintergrund.png" />
-    </Page.Background>
     
     <Page.DataContext>
         <local:ViewModelDataContext/>
     </Page.DataContext>
-    
+
+    <!-- Hintergrundbild -->
+    <Page.Background>
+        <ImageBrush ImageSource="/Images/Hintergrund.png" />
+    </Page.Background>
+
     <DockPanel>
+        <!-- Text-Style -->
         <TextBlock DockPanel.Dock="Top" Text="Klasse, du hast deine Übung beendet!" FontSize="20" HorizontalAlignment="Center" />
+        <!-- Bild von Fritz -->
         <Image Source="/Images/Fritz Standardhaltung.png" DockPanel.Dock="Left"/>
+        <!-- Text-Style -->
         <Label Content="{Binding info}" DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
-
-
+        <!-- Button zum Weiterklicken -->
         <Button DockPanel.Dock="Right" Click="Next_Click" Content="Weiter" Grid.Row="1" Grid.Column="0" Width="120" Height="60" HorizontalAlignment="Center" />
-
         <Grid>
         </Grid>
     </DockPanel>

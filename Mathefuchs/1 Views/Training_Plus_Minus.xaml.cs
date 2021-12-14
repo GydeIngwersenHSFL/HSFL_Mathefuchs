@@ -17,6 +17,10 @@ namespace Mathefuchs._1_Views
 
         private void Ok_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Button Ok
+             * Anzeigen einer neuen Aufgabe
+             */
             ViewModel.CheckGuess(tb.Text, Window.GetWindow(this));
         }
     }

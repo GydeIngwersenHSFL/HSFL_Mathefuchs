@@ -17,6 +17,10 @@ namespace Mathefuchs._1_Views
 
         public void Next_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Button zum Weiterklicken
+             * Ansicht wechseln zum Minigame
+             */
             ViewModel.GoToMinigame(Window.GetWindow(this));
         }
     }

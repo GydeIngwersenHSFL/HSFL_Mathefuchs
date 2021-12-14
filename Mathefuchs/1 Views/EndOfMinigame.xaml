@@ -11,22 +11,21 @@
     <Page.DataContext>
         <local:ViewModelDataContext/>
     </Page.DataContext>
-
+    <!-- Hintergrundbild -->
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
 
     <DockPanel>
+        <!-- Bild von Frida -->
         <Image Source="/Images/Frida.png" DockPanel.Dock="Left"/>
-
+        <!-- Text-Style -->
         <Label Content="Danke! " DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
-
+        <!-- Bild vom Minigame -->
         <Image Source="{Binding minigame.png}" DockPanel.Dock="Left"/>
-
         <Grid>
-
+            <!-- Button zum Weiterklicken -->
             <Button Click="Next_Click" Content="Weiter" Grid.Row="2" Grid.Column="2" Width="60" Height="60" Background="AntiqueWhite"></Button>
-
         </Grid>
     </DockPanel>
 </Page>

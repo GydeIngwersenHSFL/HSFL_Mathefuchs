@@ -16,11 +16,19 @@ namespace Mathefuchs._1_Views
 
         private void Right_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Button richtiger Weg
+             * Ansicht wechseln zu EndOfMinigame
+             */
             ViewModel.ChangePage(new Mathefuchs._1_Views.EndOfMinigame(), Window.GetWindow(this));
         }
 
         private void Wrong_Click(object sender, RoutedEventArgs e)
         {
+            /*
+             * Button falscher Weg
+             * Ansicht Minigame beibehalten
+             */
             ViewModel.ChangePage(new Mathefuchs._1_Views.MinigameView(), Window.GetWindow(this));
         }
         

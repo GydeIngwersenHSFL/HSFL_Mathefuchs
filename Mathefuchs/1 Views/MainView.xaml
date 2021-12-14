@@ -6,38 +6,39 @@
         xmlns:local="clr-namespace:Mathefuchs._1_Views"
         mc:Ignorable="d"
         Title="Mathefuchs" Height="450" Width="800">
-
+    <!-- Hintergrundbild -->
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
-
+    
     <DockPanel>
-        <Grid DockPanel.Dock="Right" Width="500
-              ">
+        <Grid DockPanel.Dock="Right" Width="500">
+            <!-- Definition Zeilen -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-
+            <!-- 1. Zeile -->
             <Grid Grid.Row="0">
+                <!-- Definition weiterer Zeilen in 1. Zeile -->
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                
+                <!-- Button Plus üben -->
                 <Button Click="Training_Addition_Click" Grid.Row="0">
-                    
+                    <!-- Button Plus üben Style -->
                     <DockPanel Width="350">
                         <TextBlock Text="Plus üben" FontSize="30" HorizontalAlignment="Left"/>
                         <Image Source="/Images/Icons/Plus.png" HorizontalAlignment="Right" MaxWidth="40"/>
                     </DockPanel>
-
+                    <!-- Hintergrund Button Plus üben -->
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#910D0D"/>
                             <Setter Property="Cursor" Value="Hand"/>
-
+                            <!-- Hintergrund Button Plus üben IsMouseOver -->
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#B41010"/>
@@ -45,7 +46,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-
+                    <!-- Ausrichtung Button Plus üben -->
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Width="400" Height="70"
@@ -58,17 +59,19 @@
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
+                <!-- Button Minus üben -->
                 <Button Click="Training_Subtraction_Click" Grid.Row="1" FontSize="20">
+                    <!-- Button Minus üben Style -->
                     <DockPanel Width="350">
                         <TextBlock Text="Minus üben" FontSize="30" HorizontalAlignment="Left"/>
                         <Image Source="/Images/Icons/Minus.png" HorizontalAlignment="Right" MaxWidth="40"/>
                     </DockPanel>
-
+                    <!-- Hintergrund Button Minus üben -->
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#E9591F"/>
                             <Setter Property="Cursor" Value="Hand"/>
-
+                            <!-- Hintergrund Button Minus üben IsMouseOver -->
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#EF885F"/>
@@ -76,7 +79,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-
+                    <!-- Ausrichtung Button Minus üben -->
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Width="400" Height="70"
@@ -89,17 +92,19 @@
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
+                <!-- Button Plus und Minus üben -->
                 <Button Click="Training_AddSub_Click" Grid.Row="2">
+                    <!-- Button Plus und Minus üben Style -->
                     <DockPanel Width="350">
                         <TextBlock Text="Plus und Minus üben" FontSize="30" HorizontalAlignment="Left"/>
                         <Image Source="/Images/Icons/PlusUndMinus.png" HorizontalAlignment="Right" MaxWidth="40"/>
                     </DockPanel>
-
+                    <!-- Hintergrund Button Plus und Minus üben -->
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#E9C737"/>
                             <Setter Property="Cursor" Value="Hand"/>
-
+                            <!-- Hintergrund Button Plus und Minus üben IsMouseOver -->
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#F3E091"/>
@@ -107,7 +112,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-
+                    <!-- Ausrichtung Button Plus und Minus üben -->
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Width="400" Height="70"
@@ -121,23 +126,26 @@
                     </Button.Template>
                 </Button>
             </Grid>
-
+            <!-- 3. Zeile -->
             <Grid Grid.Row="4">
+                <!-- Definition von Spalten in 3. Zeile -->
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
+                <!-- Button Video:Plus -->
                 <Button Click="showAdditionVideo" Grid.Column="0" >
+                    <!-- Button Video:Plus Style -->
                     <DockPanel Width="175">
                         <TextBlock Text="Video: Plus" FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Image Source="/Images/Icons/Video.png" HorizontalAlignment="Right" MaxWidth="40"/>
                     </DockPanel>
-
+                    <!-- Hintergrund Button Video:Plus -->
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#F2F2F2"/>
                             <Setter Property="Cursor" Value="Hand"/>
-
+                            <!-- Hintergrund Button Video:Plus IsMouseOver -->
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#FFFFFF"/>
@@ -145,7 +153,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-
+                    <!-- Ausrichtung Button Video:Plus -->
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Width="200" Height="70"
@@ -158,17 +166,19 @@
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
+                <!-- Button Video:Minus -->
                 <Button Click="showSubtractionVideo" Grid.Column="1">
+                    <!-- Button Video:Minus Style -->
                     <DockPanel Width="175">
                         <TextBlock Text="Video: Minus" FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <Image Source="/Images/Icons/Video.png" HorizontalAlignment="Right" MaxWidth="40"/>
                     </DockPanel>
-
+                    <!-- Hintergrund Button Video:Minus -->
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#F2F2F2"/>
                             <Setter Property="Cursor" Value="Hand"/>
-
+                            <!-- Hintergrund Button Video:Minus IsMouseOver -->
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#FFFFFF"/>
@@ -176,7 +186,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-
+                    <!-- Ausrichtung Button Video:Minus -->
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Width="200" Height="70"
@@ -191,8 +201,7 @@
                 </Button>
             </Grid>
         </Grid>
-
+        <!-- Bild von Fritz -->
         <Image DockPanel.Dock="Left" Source="/Images/Fritz zeigt.png" />
-
     </DockPanel>
 </Page>

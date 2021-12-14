@@ -41,7 +41,7 @@ namespace Mathefuchs._1_Views {
     public partial class Training_Plus_Minus : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         
-        #line 65 "..\..\..\1 Views\Training_Plus_Minus.xaml"
+        #line 75 "..\..\..\1 Views\Training_Plus_Minus.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox tb;
         
@@ -83,7 +83,7 @@ namespace Mathefuchs._1_Views {
             return;
             case 2:
             
-            #line 73 "..\..\..\1 Views\Training_Plus_Minus.xaml"
+            #line 83 "..\..\..\1 Views\Training_Plus_Minus.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Ok_Click);
             
             #line default

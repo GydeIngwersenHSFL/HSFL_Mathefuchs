@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Mathefuchs" Height="450" Width="800">
     <Grid>
-
+        <!-- Hintergrundbild -->
         <Grid.Background>
             <ImageBrush ImageSource="/Images/Startbild.PNG" />
         </Grid.Background>
-
+        <!-- Definition der Zeilen -->
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="200"/>
@@ -19,7 +19,7 @@
             <RowDefinition Height="150"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-
+        <!-- Rahmen -->
         <Border Grid.Row="1"
                 BorderThickness="1"
                 CornerRadius="20"
@@ -29,7 +29,7 @@
                 VerticalAlignment="Center"
                 Width="600"
                 Height="50">
-
+            <!-- Text-Style -->
             <TextBlock Text="Mathe lernen mit Fritz dem Rechenfuchs"
                    FontSize="30"
                    TextAlignment="Center"
@@ -37,23 +37,23 @@
                    Foreground="White">
             </TextBlock>
         </Border>
-
+        <!-- Button Start -->
         <Button x:Name="StartProgram" Grid.Row="3" 
                 Click="StartProgram_Click"
                 FontWeight="Medium"
                 HorizontalAlignment="Right"
                 Margin="0,0,20,20">
-
+            <!-- Start Button Style -->
             <DockPanel Width="150">
                 <TextBlock Text="Start" FontSize="30" HorizontalAlignment="Center"/>
                 <Image Source="/Images/Icons/Pfeil.png" HorizontalAlignment="Right" MaxWidth="40"/>
             </DockPanel>
-
+            <!-- Hintergrund Start Button -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#E9591F"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Start Button IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#EF885F"/>
@@ -61,7 +61,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung Start Button -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
@@ -74,6 +74,5 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-
     </Grid>
 </Window>

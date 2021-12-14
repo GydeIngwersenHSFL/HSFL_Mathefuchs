@@ -6,22 +6,24 @@
         xmlns:local="clr-namespace:Mathefuchs._1_Views"
         mc:Ignorable="d"
         Title="ChooseNrOfTasks" Height="450" Width="800">
-
+    <!-- Hintergrundbild -->
     <Page.Background>
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
     
     <Grid>
+        <!-- Definition der Zeilen -->
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
+        <!-- Definition der Spalten -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-
+        <!-- Rahmen -->
         <Border Grid.ColumnSpan="3"
                 BorderThickness="1"
                 CornerRadius="20"
@@ -31,7 +33,7 @@
                 VerticalAlignment="Center"
                 Width="600"
                 Height="50">
-
+            <!-- Text-Style -->
             <TextBlock Text="Wie viele Aufgaben möchtest du lösen?"
                    FontSize="30"
                    TextAlignment="Center"
@@ -39,14 +41,14 @@
                    Foreground="White">
             </TextBlock>
         </Border>
-
+        <!-- Button für 5 Aufgaben -->
         <Button Click="Tasks5_Click" Content="5 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="0">
-            
+            <!-- Hintergrund Button 5 Aufgaben -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#E9C737"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Button 5 Aufgaben IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#F3E091"/>
@@ -54,7 +56,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung des Button 5 Aufgaben -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
@@ -67,13 +69,14 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <!-- Button für 10 Aufgaben -->
         <Button Click="Tasks10_Click" Content="10 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="1">
-
+            <!-- Hintergrund Button 10 Aufgaben -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#E9591F"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Button 10 Aufgaben IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#EF885F"/>
@@ -81,7 +84,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung des Button 10 Aufgaben -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
@@ -94,13 +97,14 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <!-- Button für 20 Aufgaben -->
         <Button Click="Tasks20_Click" Content="20 Aufgaben" FontSize="30" Grid.Row="1" Grid.Column="2">
-
+            <!-- Hintergrund Button 20 Aufgaben -->
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#910D0D"/>
                     <Setter Property="Cursor" Value="Hand"/>
-
+                    <!-- Hintergrund Button 20 Aufgaben IsMouseOver -->
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#B41010"/>
@@ -108,7 +112,7 @@
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-
+            <!-- Ausrichtung des Button 20 Aufgaben -->
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Width="200" Height="70"
