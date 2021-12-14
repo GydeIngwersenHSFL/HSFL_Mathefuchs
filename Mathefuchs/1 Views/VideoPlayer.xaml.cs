@@ -28,42 +28,30 @@ namespace Mathefuchs._1_Views
 
         private MediaElement video()
         {
+            /*
+             * Quellenzuweisung der Videos
+             * Rückgabe des MediaElements
+             */
             if (ViewModel.openingvideo == true)
             {
-                /*
-                * Quellenzuweisung für das Video "Opening".
-                * Rückgabe des MediaElements "openingVideo".
-                */
                 ViewModel.openingvideo = false;
                 openingVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\Opening.mp4"), UriKind.Absolute);
                 return openingVideo;
             }
             else if (ViewModel.plusvideo == true)
             {
-                /*
-                * Quellenzuweisung für das Video "PlusRechnen".
-                * Rückgabe des MediaElements "plusVideo".
-                */
                 ViewModel.plusvideo = false;
                 plusVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\PlusRechnen.mp4"), UriKind.Absolute);
                 return plusVideo;
             }        
             else if (ViewModel.plusvideo == false)
             {
-                /*
-                * Quellenzuweisung für das Video "MinusRechnen".
-                * Rückgabe des MediaElements "minusVideo".
-                */
                 ViewModel.plusvideo = true;
                 minusVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\MinusRechnen.mp4"), UriKind.Absolute);
                 return minusVideo;
             }
             else
             {
-                /*
-                * Quellenzuweisung für das Video "FritzDerFuchs".
-                * Rückgabe des MediaElements "fritzVideo".
-                */
                 fritzVideo.Source = new Uri(CreateAbsolutePathTo(@"Videos\FritzDerFuchs.mp4"), UriKind.Absolute);
                 return fritzVideo;
             }             
