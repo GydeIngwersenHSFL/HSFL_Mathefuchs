@@ -5,18 +5,30 @@ namespace Mathefuchs._3_Model
     public class Training
     {
         public bool plus { get; set; }
+        //Variable Plusaufgaben erlaubt
         public bool minus { get; set; }
+        //Variable Minusaufgaben erlaubt
         public int nrOfTasks { get; set; }
+        //Variable Aufgabenanzahl
         public int tasksSolved { get; set; }
+        //Variable Aufgaben gelöst
         public int tasksSolvedAtFirstTry { get; set; }
+        //Variable Aufgaben beim ersten Mal gelöst
         public int max { get; set; }
+        //Variable maximaler Zahl pro Aufgabe
         public bool tenTransition { get; set; }
+        //Variable Zehnerübergang
         public MTask[] tasks { get; set; }
+        //Variable Aufgabe
 
         public static Random rnd;
+        //Variable Zufallszahl
 
         public Training(bool plus, bool minus, int nrOfTasks, int max, bool tenTransition)
         {
+            /*
+             * Auswahl der Aufgabenart und der jeweiligen zufällig generierten Aufgaben
+             */
             this.plus = plus;
             this.minus = minus;
             this.nrOfTasks = nrOfTasks;
@@ -47,6 +59,9 @@ namespace Mathefuchs._3_Model
 
         private MTask generatePlusTask(int max, bool tenTransition)
         {
+            /*
+             * Generierung zufällinger Plusaufgaben
+             */
             int num1 = rnd.Next(1, max);
             int num2;
             if (tenTransition) { num2 = rnd.Next(1, max - num1); }
@@ -59,6 +74,9 @@ namespace Mathefuchs._3_Model
 
         private MTask generateMinusTask(int max, bool tenTransition)
         {
+            /*
+             * Generierung zufällinger Minusaufgaben
+             */
             int num1 = rnd.Next(1, max);
             int num2;
             if (tenTransition) { num2 = rnd.Next(1, num1); }
@@ -66,8 +84,7 @@ namespace Mathefuchs._3_Model
             {
                 int n10 = num1 % 10;
                 if(n10 != 0) { num2 = rnd.Next(1, num1 % 10); }
-                else { num2 = rnd.Next(1, 10); }
-                
+                else { num2 = rnd.Next(1, 10); }   
             }
 
             return new MTask(num1, num2, Operator.Minus);
@@ -75,6 +92,9 @@ namespace Mathefuchs._3_Model
 
         public override string ToString()
         {
+            /*
+             * Überschreibung der ToString-Methode: Ausgabe der Aufgaben
+             */
             string print = "";
             foreach (MTask task in tasks)
             {
