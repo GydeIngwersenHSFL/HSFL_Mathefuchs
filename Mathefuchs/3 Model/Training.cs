@@ -15,9 +15,9 @@ namespace Mathefuchs._3_Model
         public int tasksSolvedAtFirstTry { get; set; }
         //Variable Aufgaben beim ersten Mal gelöst
         public int max { get; set; }
-        //Variable maximaler Zahl pro Aufgabe
+        //Variable Zahlenraum
         public bool tenTransition { get; set; }
-        //Variable Zehnerübergang
+        //Variable Zehnerübergang erlaubt
         public MTask[] tasks { get; set; }
         //Variable Aufgabe
 
@@ -28,6 +28,7 @@ namespace Mathefuchs._3_Model
         {
             /*
              * Auswahl der Aufgabenart und der jeweiligen zufällig generierten Aufgaben
+             * Übergabeparameter: plus: Plusaufgaben erlaubt; minus: Minusaufgaben erlaubt; nrOfTasks: Anzahl der Aufgaben; tenTransition: Zehnerübergang erlaubt
              */
             this.plus = plus;
             this.minus = minus;
@@ -61,6 +62,7 @@ namespace Mathefuchs._3_Model
         {
             /*
              * Generierung zufällinger Plusaufgaben
+             * Übergabeparameter: max: Zahlen bis max; tenTransition: Zehnerübergang erlaubt
              */
             int num1 = rnd.Next(1, max);
             int num2;
@@ -76,6 +78,7 @@ namespace Mathefuchs._3_Model
         {
             /*
              * Generierung zufällinger Minusaufgaben
+             * Übergabeparameter: max: Zahlen bis max; tenTransition: Zehnerübergang erlaubt
              */
             int num1 = rnd.Next(1, max);
             int num2;

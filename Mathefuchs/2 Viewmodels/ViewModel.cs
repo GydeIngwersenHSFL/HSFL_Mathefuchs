@@ -30,6 +30,7 @@ namespace Mathefuchs._2_Viewmodels
         {
             /*
              * Wechseln der Ansicht zum Minigame
+             * Übergabeparameter: window: Fenster
              */
             //here you can add a random generator and then route to other minigame views
             ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
@@ -39,6 +40,7 @@ namespace Mathefuchs._2_Viewmodels
         {
             /*
              * Aufbau der Aufgaben
+             * Übergabeparameter: task: Anzahl der Aufgaben; window: Fenster
              */
             nrOfTaks = tasks;
             training = new Training(plus, minus, nrOfTaks, max, tenTransition);
@@ -70,6 +72,7 @@ namespace Mathefuchs._2_Viewmodels
             /*
              * Überprüfung der Eingabe
              * Wechseln der Ansicht zur Endansicht wenn die zuvor ausgewählte Anzahl der Aufgaben erreicht ist.
+             * Übergabeparameter: guess: Ergebniseingabe; window: Fenster
              */
             if (guess == vmdc.result.ToString())
             {
@@ -96,6 +99,7 @@ namespace Mathefuchs._2_Viewmodels
             /*
              * Setzen des Schwierigkeitsgrades (1=leicht, 2=mittel, 3=schwer)
              * Wechseln der Ansicht zur Auswahl der Aufgabenanzahl
+             * Übergabeparameter: diff: Schwierigkeitsgrad; window: Fenster
              */
             if (diff == 1 || diff == 3) { tenTransition = true; }
             else { tenTransition = false; }
@@ -111,6 +115,7 @@ namespace Mathefuchs._2_Viewmodels
             /*
              * Auswahl der Übungen (Plus/ Minus/ Plus und Minus)
              * Wechseln der Ansicht zur Auswahl des Schwierigkeitsgrades
+             * Übergabeparameter: plus1: Plusaufgaben erlaubt; minus1: Minusaufgaben erlaubt; window: Fenster
              */
             plus = plus1;
             minus = minus1;
@@ -144,6 +149,7 @@ namespace Mathefuchs._2_Viewmodels
         {
             /*
              * Navigation
+             * Übergabeparameter: page: zu dieser Ansicht wechseln; window: Fenster
              */
             window.Content = page;
         }

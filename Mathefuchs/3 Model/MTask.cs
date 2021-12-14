@@ -32,6 +32,7 @@ namespace Mathefuchs._3_Model
         {
             /*
              * Zufallsvariablen und Operator zu Aufgaben zusammensetzen
+             * Übergabeparameter: n1: Zufallsvariable 1; n2: Zufallsvariable 2; opval: Operator
              */
             this.mOperator = opval;
 
@@ -53,6 +54,7 @@ namespace Mathefuchs._3_Model
         public bool CheckGuess(int guess) { 
             /*
              * Überprüfung der Ergebniseingabe
+             * Übergabeparameter: guess: Ergebniseingabe
              */
             return guess == result; 
         }
