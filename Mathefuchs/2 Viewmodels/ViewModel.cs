@@ -32,8 +32,18 @@ namespace Mathefuchs._2_Viewmodels
              * Wechseln der Ansicht zum Minigame
              * Übergabeparameter: window: Fenster
              */
-            //here you can add a random generator and then route to other minigame views
-            ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
+
+            //zufälliges Minigame aufrufen
+            Random rnd = new Random();
+            int r = rnd.Next(0, 2);
+            if(r == 0)
+            {
+                ChangePage(new Mathefuchs._1_Views.MinigameView(), window);
+            }
+            else
+            {
+                ChangePage(new Mathefuchs._1_Views.Minigame2View(), window);
+            }
         }   
 
         internal static void SetTasks(int tasks, Window window)

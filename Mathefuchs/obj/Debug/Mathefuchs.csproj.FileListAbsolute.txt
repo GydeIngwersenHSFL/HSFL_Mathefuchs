@@ -153,3 +153,5 @@ C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMi
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.g.cs
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\EndOfMinigame.baml
 C:\Users\lucat\Source\Repos\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\MinigameView.baml
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Minigame2View.g.cs
+C:\Users\thegy\Documents\GitHub\HSFL_Mathefuchs\Mathefuchs\obj\Debug\1 Views\Minigame2View.baml
