@@ -14,6 +14,8 @@ namespace Mathefuchs._1_Views
             InitializeComponent();
         }
 
+        
+
         private void Right_Click(object sender, RoutedEventArgs e)
         {
             /*

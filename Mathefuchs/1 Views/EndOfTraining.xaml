@@ -17,16 +17,74 @@
         <ImageBrush ImageSource="/Images/Hintergrund.png" />
     </Page.Background>
 
-    <DockPanel>
-        <!-- Text-Style -->
-        <TextBlock DockPanel.Dock="Top" Text="Klasse, du hast deine Übung beendet!" FontSize="20" HorizontalAlignment="Center" />
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
         <!-- Bild von Fritz -->
-        <Image Source="/Images/Fritz Standardhaltung.png" DockPanel.Dock="Left"/>
-        <!-- Text-Style -->
-        <Label Content="{Binding info}" DockPanel.Dock="Top" FontSize="20"  HorizontalAlignment="Center"/>
+        <Image Source="/Images/Fritz Standardhaltung.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" HorizontalAlignment="Left" Margin="10"/>
+
+        <!-- Rahmen -->
+        <Border Grid.Column="1" Grid.Row="0"
+                BorderThickness="1"
+                CornerRadius="20"
+                Background="#3B3838"
+                BorderBrush="#3B3838"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="400"
+                Height="50">
+            <!-- Text-Style -->
+            <TextBlock Text="Klasse, du hast deine Übung beendet!"
+                   FontSize="20"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Foreground="White">
+            </TextBlock>
+        </Border>
+
         <!-- Button zum Weiterklicken -->
-        <Button DockPanel.Dock="Right" Click="Next_Click" Content="Weiter" Grid.Row="1" Grid.Column="0" Width="120" Height="60" HorizontalAlignment="Center" />
-        <Grid>
-        </Grid>
-    </DockPanel>
+        <Button Grid.Column="1" Grid.Row="1" 
+                Click="Next_Click"
+                FontWeight="Medium"
+                HorizontalAlignment="Center"
+                Margin="0,0,20,20">
+            <!-- Weiter Button Style -->
+            <DockPanel Width="340">
+                <TextBlock Text="Weiter zum Minispiel" FontSize="30" HorizontalAlignment="Center"/>
+                <Image Source="/Images/Icons/Pfeil.png" HorizontalAlignment="Right" MaxWidth="40"/>
+            </DockPanel>
+            <!-- Hintergrund Weiter Button -->
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#E9591F"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <!-- Hintergrund Weiter Button IsMouseOver -->
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#EF885F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <!-- Ausrichtung Weiter Button -->
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="370" Height="70"
+                                    CornerRadius="32"
+                                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
 </Page>

@@ -13,7 +13,7 @@
     </Page.DataContext>
     <!-- Hintergrundbild -->
     <Page.Background>
-        <ImageBrush ImageSource="/Images/Hintergrund.png" />
+        <ImageBrush ImageSource="/Images/HintergrundMinispiel.png" />
     </Page.Background>
 
     <DockPanel>
@@ -68,11 +68,16 @@
             <!-- Definition der Spalten -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
-                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="4*"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+
+            <!--Bild von Frida-->
+            <Image Source="/Images/Frida Standardhaltung.png" Width="190" Margin="10" Grid.Column="0" Grid.RowSpan="3" HorizontalAlignment="Left"/>
+
             <!-- Rahmen Weg A -->
-            <Border Grid.Row="0"
+            <Border Grid.Row="0" Grid.Column="1"
                 BorderThickness="1"
                 CornerRadius="8"
                 Background="#910D0D"
@@ -91,7 +96,7 @@
                 </TextBlock>
             </Border>
             <!-- Rahmen Weg B -->
-            <Border Grid.Row="1"
+            <Border Grid.Row="1" Grid.Column="1"
                 BorderThickness="1"
                 CornerRadius="8"
                 Background="#E9591F"
@@ -110,7 +115,7 @@
                 </TextBlock>
             </Border>
             <!-- Rahmen Weg C -->
-            <Border Grid.Row="2"
+            <Border Grid.Row="2" Grid.Column="1"
                 BorderThickness="1"
                 CornerRadius="8"
                 Background="#E9C737"
@@ -128,12 +133,10 @@
                    Foreground="Black">
                 </TextBlock>
             </Border>
-            <!-- Hintergrund des Minigames -->
-            <Rectangle Fill="White" Grid.Column="1" Margin="0,10" Grid.RowSpan="3"/>
-            <!-- Bild des Minigames -->
-            <Image Source="/Images/minib.png" Stretch="Uniform" Grid.Column="1"  Grid.RowSpan="3" HorizontalAlignment="Center"/>
+            <Image x:Name="Minispiel1" Source="/Images/minib.png" Stretch="Uniform" Grid.Column="2"  Grid.RowSpan="3" HorizontalAlignment="Center"/>
+            <!--<Image x:Name="Minispiel2" Source="/Images/minic.png" Stretch="Uniform" Grid.Column="2"  Grid.RowSpan="3" HorizontalAlignment="Center"/>-->
             <!-- Button A -->
-            <Button Click="Wrong_Click" Content="A" FontSize="30" Grid.Row="0" Grid.Column="2">
+            <Button Click="Wrong_Click" Content="A" FontSize="30" Grid.Row="0" Grid.Column="3">
                 <!-- Hintergrund Button A -->
                 <Button.Style>
                     <Style TargetType="Button">
@@ -161,7 +164,7 @@
                 </Button.Template>
             </Button>
             <!-- Button B -->
-            <Button Click="Right_Click" Content="B" FontSize="30" Grid.Row="1" Grid.Column="2">
+            <Button Click="Right_Click" Content="B" FontSize="30" Grid.Row="1" Grid.Column="3">
                 <!-- Hintergrund Button B -->
                 <Button.Style>
                     <Style TargetType="Button">
@@ -189,7 +192,7 @@
                 </Button.Template>
             </Button>
             <!-- Button C -->
-            <Button Click="Wrong_Click" Content="C" FontSize="30" Grid.Row="2" Grid.Column="2">
+            <Button Click="Wrong_Click" Content="C" FontSize="30" Grid.Row="2" Grid.Column="3">
                 <!-- Hintergrund Button C -->
                 <Button.Style>
                     <Style TargetType="Button">

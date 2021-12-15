@@ -21,6 +21,7 @@ namespace Mathefuchs._1_Views
              * Button zum Weiterklicken
              * Ansicht wechseln zum Minigame
              */
+            
             ViewModel.GoToMinigame(Window.GetWindow(this));
         }
     }

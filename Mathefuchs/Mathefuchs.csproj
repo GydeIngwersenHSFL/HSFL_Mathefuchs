@@ -175,6 +175,8 @@
     <Resource Include="Images\Icons\Video.png" />
     <Resource Include="Images\minib.png" />
     <Resource Include="Images\minic.png" />
+    <Resource Include="Images\HintergrundMinispiel.png" />
+    <Resource Include="Images\Frida Standardhaltung.png" />
     <Content Include="Videos\FritzDerFuchs.mp4" />
     <Content Include="Videos\MinusRechnen.mp4" />
     <Content Include="Videos\Opening.mp4" />
