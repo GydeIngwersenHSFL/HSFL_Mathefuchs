@@ -36,13 +36,12 @@ namespace Mathefuchs._1_Views
             ViewModel.SetTasks(20, Window.GetWindow(this));
         }
 
+        /*
         private void ShowTrainingPage()
         {
-            /*
-             * 
-             */
             var trainingPage = new Mathefuchs._1_Views.Training_Plus_Minus();
             this.Content = trainingPage;
         }
+        */
     }
 }

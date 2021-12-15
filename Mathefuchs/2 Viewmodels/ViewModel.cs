@@ -48,12 +48,12 @@ namespace Mathefuchs._2_Viewmodels
             vmdc = new ViewModelDataContext();
             vmdc.training = training;
 
-            NextTask(window);
+            NextTask();
 
             ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(), window); 
         }
 
-        public static void NextTask(Window window)
+        public static void NextTask()
         {
             /*
              * Nächste Aufgabe
@@ -79,7 +79,7 @@ namespace Mathefuchs._2_Viewmodels
                 vmdc.info = "Super!";
                 if (vmdc.training.tasksSolved < nrOfTaks) 
                 {
-                    NextTask(window);
+                    NextTask();
                     ChangePage(new Mathefuchs._1_Views.Training_Plus_Minus(), window);
                 }
                 else
